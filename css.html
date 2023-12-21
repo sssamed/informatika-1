@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Osnove CSS</title>
+</head>
+
+<body>
+    <header>
+        <h1>CSS</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HTML</a></li>
+            <li><a href="css.html">Osnove CSS-a</a></li>
+            <li><a href="javascript.html">Uvod u JavaScript</a></li>
+            <li><a href="other.html">Dodatne informacije</a></li>
+        </ul>
+    </nav>
+
+    <div id="css-div">
+        <h2>Osnove CSS-a</h2>
+
+        <p>CSS (Cascading Style Sheets) je stilski jezik pomocu kojeg upravljamo izgledom HTML stranice.
+            Dozvoljava dodavanje stilova, poput boja, fontova i margina HTML dokumentu i njegovim elementima.</p>
+
+        <h3>CSS Selektori</h3>
+
+        <table>
+            <tr>
+                <th>Selektor</th>
+                <th>Opis</th>
+            </tr>
+            <tr>
+                <td>element</td>
+                <td>Primijeni stil na sve elemente odredjenog tipa u dokumentu (body, h1, p...)</td>
+            </tr>
+            <tr>
+                <td>.class</td>
+                <td>Primijeni stil na sve elemente jedne klase (.navigation, .hero-section...)</td>
+            </tr>
+            <tr>
+                <td>#id</td>
+                <td>Primjenjuje stil na element koji ima odredjeni ID (#naslov, #html-sekcija...)</td>
+            </tr>
+        </table>
+
+        <h3>CSS Svojstva</h3>
+
+        <ul>
+            <li><code>color:</code> Podesava boju teksta</li>
+            <li><code>font-size:</code> Podesava velicinu fonta</li>
+            <li><code>margin:</code> Podesava marginu oko elementa</li>
+            <li><code>padding:</code> Podesava padding unutar elementa (udaljenost izmedju elementa i bordera)</li>
+        </ul>
+
+        <p>
+            U CSS-u postoje i pseudoklase koje koristimo za dodavanje stila elementu nakon necega sto se desi s tog elementa.<br>
+            Slika ispod ima pseudoklasu <code>hover</code> koja mijenja stil slike dok mis lebdi iznad nje. Dodata je i tranzicija kako 
+            bi promjena izgledala ljepse.
+        </p>
+
+        <center>
+            <img id="css" src="csslogo.png" alt="CSS logo">
+        </center>
+
+        <p>Nauci vise o <a href="javascript.html">JavaScript-u</a>.</p>
+    </div>
+
+    <p>
+        Vise informacija o CSS-u mozete naci na <a href="https://www.w3schools.com/css/">w3schools</a>
+    </p>
+
+    <hr>
+    <footer>
+        <p>
+            Autor: Samed Sudzuka <br>
+            Razred: 2T<sub>1</sub> <br>
+            E-mail: <a href="mailto:samed.s@outlook.com">samed.s@outlook.com</a>
+        </p>
+    </footer>
+</body>
+
+</html>

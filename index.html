@@ -1,12 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Osnove</title>
 </head>
+
 <body>
-    <h1>Test</h1>
-    <p>Paragraf</p>
+    <header>
+        <h1>HTML</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HTML</a></li>
+            <li><a href="css.html">Osnove CSS-a</a></li>
+            <li><a href="javascript.html">Uvod u JavaScript</a></li>
+            <li><a href="other.html">Dodatne informacije</a></li>
+        </ul>
+    </nav>
+
+    <div id="table-of-contents">
+        <h2>Sadrzaj</h2>
+        <ul>
+            <li><a href="#html-osnove">Osnove HTML-a</a></li>
+            <li><a href="#korisni-atributi">Korisni atributi u HTML-u</a></li>
+        </ul>
+    </div>
+
+    <div id="html-osnove">
+        <h2>Osnove HTML-a</h2>
+
+        <h3>HTML Elementi</h3>
+
+        <table border="1">
+            <tr>
+                <th>Tag</th>
+                <th>Opis</th>
+            </tr>
+            <tr>
+                <td>&lt;html&gt;</td>
+                <td>Korijen HTML stranice</td>
+            </tr>
+            <tr>
+                <td>&lt;head&gt;</td>
+                <td>Sadrzi informacije o HTML dokumentu i povezuje eksterni CSS, u njemu dodajemo ikone i naslov za tab.</td>
+            </tr>
+            <tr>
+                <td>&lt;body&gt;</td>
+                <td>U body tagu je sav sadrzaj HTML stranice, poput naslova, paragrafa, sekcija i slicno.</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>Definise paragraf</td>
+            </tr>
+            <tr>
+                <td>&lt;br&gt;</td>
+                <td>Novi red</td>
+            </tr>
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td>Anchor tag - Definise hiperlink</td>
+            </tr>
+            <tr>
+                <td>&lt;ul&gt;</td>
+                <td>Otvara nenumerisanu listu (unordered list)</td>
+            </tr>
+            <tr>
+                <td>&lt;ol&gt;</td>
+                <td>Otvara numerisanu listu (ordered list)</td>
+            </tr>
+            <tr>
+                <td>&lt;li&gt;</td>
+                <td>Definise stavku liste (ul ili ol)</td>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt; to &lt;h6&gt;</td>
+                <td>Definise naslov razlicite velicine (h1 najveci, h6 najmanji)</td>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>Dodaju sliku na stranicu. Za URL slike koristimo atribut src.</td>
+            </tr>
+        </table>
+
+        <h3>HTML Liste</h3>
+
+        <ul>
+            <li>Prva stavka liste bez numerisanja</li>
+            <li>Druga stavka liste bez numerisanja</li>
+            <li>Treca stavka liste bez numerisanja</li>
+        </ul>
+
+        <ol>
+            <li>Prva stavka liste sa numerisanjem</li>
+            <li>Druga stavka liste sa numerisanjem</li>
+            <li>Treca stavka liste sa numerisanjem</li>
+        </ol>
+
+        <h3>HTML Anchor Tag (Sidro)</h3>
+
+        <p>Nauci vise o <a href="css.html">CSS-u</a> i <a href="javascript.html">JavaScript-u</a>.</p>
+
+    </div>
+
+    <div id="korisni-atributi">
+        <h2>Korisni atributi u HTML-u</h2>
+
+        <table border="1">
+            <tr>
+                <th>Atribut</th>
+                <th>Opis</th>
+            </tr>
+            <tr>
+                <td>class</td>
+                <td>Definise klasu za HTML element. Klase koristimo najcesce za CSS.</td>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td>Definise unikatan ID za HTML element.</td>
+            </tr>
+            <tr>
+                <td>src</td>
+                <td>Specifikuje URL izvora neke slike ili skripte.</td>
+            </tr>
+            <tr>
+                <td>alt</td>
+                <td>Dodaje alt tekst slici (tekst koji se prikazuje kada je nije moguce prikazati sliku ili za citace ekrana)</td>
+            </tr>
+            <tr>
+                <td>style</td>
+                <td>Dodaje CSS stilove elementu na inline nacin</td>
+            </tr>
+            <tr>
+                <td>target</td>
+                <td>Odredjuje kako ce se otvoriti link sa anchor taga (npr. u novom tabu ili istom)</td>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+    <p>
+        Vise informacija o HTML-u mozete naci na <a href="https://www.w3schools.com/html/" target="_blank">w3schools</a>
+    </p>
+    <br>
+    <hr>
+
+    <footer>
+        <p>
+            Autor: Samed Sudzuka <br>
+            Razred: 2T<sub>1</sub> <br>
+            E-mail: <a href="mailto:samed.s@outlook.com">samed.s@outlook.com</a>
+        </p>
+    </footer>
+
 </body>
+
 </html>

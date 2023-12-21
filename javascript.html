@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Introduction</title>
+    <link rel="stylesheet" href="jsstyle.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>JavaScript</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HTML</a></li>
+            <li><a href="css.html">Osnove CSS-a</a></li>
+            <li><a href="javascript.html">Uvod u JavaScript</a></li>
+            <li><a href="other.html">Dodatne informacije</a></li>
+        </ul>
+    </nav>
+
+    <div id="javascript-div">
+        <h2 id="naslov">Uvod u JavaScript</h2>
+
+        <p>
+            JavaScript je interpretirani programski jezik visokog nivoa koji se koristi za dodavanje funkcionalnosti web stranicama.<br>
+            Postoje mnogi framework-ovi koji prosiruju primjenu JavaScript-a poput Angular, NodeJS, React...
+        </p>
+
+        <h3>Korisne naredbe u JavaScriptu</h3>
+
+        <ul id="funkcije">
+            <li><strong>Varijable:</strong>  Koristimo kljucne rijeci <code>var</code>, <code>let</code>, i <code>const</code> za deklaraciju varijabli.</li>
+            <li><strong>Funkcije:</strong> Mozemo praviti funkcije koje sadrze dio koda koji bi mogli ponovo upotrijebiti. <br>Koristimo kljucnu rijec <code>function</code>, zatim dajemo ime funkciji i stavljamo parametre u zagrade.</li>
+            <li><strong>Uslovi:</strong> Koristimo <code>if</code> i <code>else</code> kada radimo sa uslovima.</li>
+            <li><strong>Petlje:</strong> Sluze nam za iteraciju, odnosno ponavljanje dijela koda, kao sto su <code>for</code> i <code>while</code>.</li>
+            <li><strong>Nizovi:</strong> Spremaju niz vrijednosti na jedno mjesto. Elemente niza pisemo unutar <code>[]</code>, a on se deklarise kao i obicna varijabla</li>
+            <li><strong>Objekti:</strong> U JavaScript-u imamo i OOP (objektno orijentisano programiranje), a za objekte koristimo <strong>JSON</strong> (JavaScript Object Notation)<br>JSON se koristi i u drugim programskim jezicima za zapisivanje podataka.</li>
+        </ul>
+
+        <h3>Primjer</h3>
+
+        <p>Dugmad ispod izvrsavaju JavaScript funkcije. Prvo dugme izvrsava funkciju <code>alert()</code>, a drugo mijenja boju stranice.<br> Pritisnite dugmad da testirate:</p>
+
+        <button onclick="upozorenje()">Upozorenje</button>
+        <button onclick="promjenaBoje()">Promijeni boju</button>
+
+        <br>
+
+        <p>
+            Vise informacija o JavaScript-u mozete naci na <a href="https://www.w3schools.com/js/">w3schools</a>
+        </p>
+
+        <hr>
+        <footer>
+            <p>
+                Autor: Samed Sudzuka <br>
+                Razred: 2T<sub>1</sub> <br>
+                E-mail: <a href="mailto:samed.s@outlook.com">samed.s@outlook.com</a>
+            </p>
+        </footer>
+
+        <script src="javascript.js"></script>
+    </div>
+</body>
+
+</html>
